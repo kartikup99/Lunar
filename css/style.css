@@ -12402,6 +12402,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background: linear-gradient(107.75deg, #111625 -13.66%, #1B2F52 131.52%);
 }
 
 .nav-link {
@@ -12492,6 +12493,7 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+
 }
 
 .navbar > .container,
@@ -18425,7 +18427,7 @@ h6, .h6 {
 .navbar {
   width: 100%;
   padding: 1.875rem 1rem;
-  background: #3c37f1;
+  background: linear-gradient(107.75deg, #111625 -13.66%, #1B2F52 131.52%);	
 }
 
 @media (max-width: 991px) {
