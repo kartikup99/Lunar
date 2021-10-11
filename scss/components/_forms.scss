@@ -1,12 +1,11 @@
-/* Forms */
-
-.form-group {
-  margin-bottom: 1.5rem;
-}
 .form-control {
-  border: 1px solid $border-color;
-  font-weight: 400;
-  font-size: $input-font-size;
-  height: auto;
+  background-color: #f6f7fb;
+  border: none;
+  font-size: 14px;
+  &:focus {
+    background-color: #f6f7fb;
+    border: 1px solid #ced4da;  
+    box-shadow: none;
+    border: none;
+  }
 }
-

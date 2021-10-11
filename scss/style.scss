@@ -1,70 +1,23 @@
-/*------------------------------------------------------------------
- [Master Stylesheet]
+// Fonts
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap";
 
-  Project:	Marshmello Admin
-  Version:	1.0.0
--------------------------------------------------------------------*/
-
-
-
-/*-------------------------------------------------------------------
-  ===== Table of Contents =====
-
-  * Bootstrap functions
-  * Template variables
-  * SCSS Compass Functions
-  * Boostrap Main SCSS
-  * Core Styles
-    + Reset Styles
-    + Fonts
-    + Navbar
-    + Typography
-    + Footer
-  * Components
-    + Buttons
-    + Checkboxes and Radios
-    + Forms
-    + owl carousel
-    + jquery flipster
--------------------------------------------------------------------*/
-
-
-/*-------------------------------------------------------------------*/
-/* === Import Bootstrap functions and variables === */
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-
-/*-------------------------------------------------------------------*/
-/* === Import template variables === */
 @import "variables";
-
-/*-------------------------------------------------------------------*/
-/* === SCSS Compass Functions === */
-@import "../node_modules/compass-mixins/lib/compass";
-@import "../node_modules/compass-mixins/lib/animate";
-
-/*-------------------------------------------------------------------*/
-/* === Boostrap Main SCSS === */
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-/*-------------------------------------------------------------------*/
-
-/*-------------------------------------------------------------------*/
-/* === Core Styles === */
-@import "reset";
-@import "fonts";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
 @import "typography";
-@import "footer";
+@import "content";
 @import "navbar";
-@import "main";
-@import "testimonial";
-@import "pricing";
+@import "utilities";
 
-/*-------------------------------------------------------------------*/
-/* === Components === */
+
+
+//Mixins
+@import "mixins/buttons";
+
+// Components
 @import "components/buttons";
+@import "components/cards";
 @import "components/forms";
-@import "components/toggle-switch";
-@import "components/owl-carousel";
-@import "components/flipster";
+@import "components/modals";
+
+
 
