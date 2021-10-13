@@ -215,11 +215,11 @@
     valid = validateContact();
     if(valid) {
         jQuery.ajax({
-            url: "contact_mail.php",
-            data:'userName='+$("#userName").val()+'&userEmail='+
-            $("#userEmail").val()+'&subject='+
-            $("#subject").val()+'&content='+
-            $(content).val(),
+            url: "/forms/contact.php",
+            data:'name='+$("#name").val()+'&email='+
+            $("#email").val()+'&subject='+
+            $("#subject").val()+'&message='+
+            $(message).val(),
             type: "POST",
             success:function(data){
                 $("#mail-status").html(data);
