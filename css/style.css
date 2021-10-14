@@ -567,6 +567,7 @@ h5.subtitle {
   position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .section-heading h2 {
