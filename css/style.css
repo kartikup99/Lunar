@@ -365,7 +365,7 @@ h5.subtitle {
 .header-white {
   position: fixed;
   top: 0px;
-  background: #111;
+  background: #fff;
   z-index: 9999;
   width: 100%;
   left: 0;
@@ -417,7 +417,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white .navbar-nav a.active {
-  color: #635CDB;
+  color: #E2C96E;
 }
 
 .navbar-brand img {
@@ -534,10 +534,10 @@ h5.subtitle {
 }
 
 .banner-content .subtitle {
-  color: #fff;
-  background: #635CDB;
+  color: #000;
+  background: #E2C96E;
   display: inline-block;
-  padding: 3px 8px;
+  padding: 5px 15px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
