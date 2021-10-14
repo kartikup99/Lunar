@@ -565,6 +565,8 @@ h5.subtitle {
   background: url("../images/banner/banner-bg.jpg");
   background-size: cover;
   position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .section-heading h2 {
