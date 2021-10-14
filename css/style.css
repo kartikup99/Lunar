@@ -321,10 +321,6 @@ h5.subtitle {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.brown-overlay {
-  background: #222955;
-  opacity: .97;
-}
 
 .feature-overlay {
   background: #635CDB;
@@ -515,9 +511,9 @@ h5.subtitle {
  BANNER AREA
 ----------------------------------*/
 .banner-area .content-padding {
-  padding: 250px 0px 180px;
+  padding: 300px 0px 180px;
+  height: 100vh;
 }
-
 .content-padding {
   padding: 180px 0px 80px;
 }
