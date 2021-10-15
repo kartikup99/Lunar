@@ -1610,6 +1610,10 @@ BLOG SINGLE
   .banner-content p {
     font-size: 16px;
   }
+  .banner-area .content-padding {
+    padding: 200px 0px 180px;
+    height: 100vh;
+  }
   /*----------------
      INTRO
     ----------------*/
