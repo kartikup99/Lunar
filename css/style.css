@@ -1401,6 +1401,10 @@ BLOG SINGLE
   .section-heading {
     width: 100%;
   }
+  .banner-area .content-padding {
+    padding: 250px 0px 180px;
+    height: 100vh;
+  }
   /*----------------
      INTRO
     ----------------*/
@@ -1482,6 +1486,10 @@ BLOG SINGLE
     -----------------------*/
   .section-heading {
     width: 100%;
+  }
+  .banner-area .content-padding {
+    padding: 250px 0px 180px;
+    height: 100vh;
   }
   /*----------------
      INTRO
