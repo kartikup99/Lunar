@@ -289,7 +289,7 @@ h5.subtitle {
 }
 
 .bg-feature {
-  background-color: #635CDB;
+  background-color: #111625;
 }
 
 .bg-primary {
@@ -543,7 +543,7 @@ h5.subtitle {
 }
 
 .subtitle {
-  color: #635CDB;
+  color: #1B2F52;
 }
 
 .banner-content p {
@@ -631,7 +631,7 @@ INner Pages
 
 .intro-box span {
   font-size: 28px;
-  color: #635CDB;
+  color: #1B2F52;
 }
 
 .intro-cta {
@@ -701,7 +701,7 @@ ABOUT PAGE
 -------------------------*/
 .about-list2 li i {
   margin-right: 10px;
-  color: #635CDB;
+  color: #1B2F52;
 }
 
 .icon-3x {
@@ -709,7 +709,7 @@ ABOUT PAGE
 }
 
 .text-default {
-  color: #635CDB;
+  color: #1B2F52;
 }
 
 .team-social li a {
@@ -831,7 +831,7 @@ HISTORY MISSION
   margin: 0 auto;
   border-radius: 100%;
   margin-bottom: 20px;
-  background: #635CDB;
+  background: #1B2F52;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 }
